@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    margin: 20px;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+
+}
+nav{
+    width:1377.3px ;
+    overflow: hidden;
+    background-color:rgb(180, 141, 118);
+    align-items: center;
+    padding-left: 355px;
+}
