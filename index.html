@@ -17,33 +17,35 @@
                     <li><a href="">About me</a></li>
                     <li><a href="#education">Education</a></li>
                     <li><a href="#courses">Courses</a></li>
-                    <li><a href="">Certificates</a></li>
-                    <li><a href="">Projects</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    
                 </ul>
             </nav>
         </div>
-        <div class="about-me">
-            <div class="contact-me">
-                <h1>Hello! I’m Alexandra Lilova </h1>
-                <h3>Contact me:</h3>
-                <p> (+359) 876989966</p>
-                <p> lilova4p@gmail.com, aleksandra.l2023a@eg-vratza.org</p>
-                <p> Sofia, Bulgaria</p>
-                <div class="social-media">
-                    <ul>
-                    <li><a href="www.linkedin.com/in/aleksandra-lilova-558499325"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                    <li><a href="https://github.com/allilova"><i class="fa-brands fa-github"></i></a></li>
+        <div id="about" class="about-section">
+          <div class="about-container">
+            <div class="about-text">
+              <h2>About Me</h2>
+              <p>Hi! I'm a Computer and Software Engineering student at the Technical University of Sofia, passionate about creating web apps and solving problems.</p>
+              <p>I enjoy working with both frontend and backend technologies and constantly learning new skills.</p>
+              
+              <div class="contact-info">
+                <h3>Contact Me</h3>
+                <ul>
+                  <li><i class="fas fa-phone"></i> +359 88 123 4567</li>
+                  <li><i class="fas fa-envelope"></i> your.email@example.com</li>
+                  <li><i class="fab fa-github"></i> <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
+                  <li><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a></li>
                 </ul>
+              </div>
             </div>
+            <div class="about-img">
+              <img src="images/DSC02142.jpeg" alt="Profile photo">
             </div>
-            <div class="personal-information">
-                <p>A creative mind with a passion for technology, design, and innovation. For me, programming is not just about writing code – it’s an art that combines logic and creativity. I specialize in front-end development, but like any young professional,
-                     I’m exploring my path and seeking opportunities to grow</p>
-                <p>I love challenges and believe that continuous learning and self-improvement are the keys to success. I’m motivated to create beautiful, functional, and intuitive web experiences.</p>
-                <p>When I’m not in front of a screen, you’ll find me working out, taking photos, reading books, and traveling – because inspiration is everywhere around us.</p>
-                <p>I’m ready for new challenges and opportunities! Let’s connect and create something amazing together</p>
-            </div>
+          </div>
         </div>
+        
         <div class="education" id="education">
                 <h2>Education</h2>
               
@@ -92,13 +94,141 @@
                 </div>
               </div>
               <h3>JS Advanced</h3>
-              <p class="provider">September 2021</p>
+              <p class="provider">Softuni · September 2021</p>
             </div>
         
-            <!-- Можеш да добавиш още курс-карти по същия модел -->
+            <div class="course-card">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="images/JSApplicationsFrond.PNG" alt="JS Applications Certificate Front">
+                  </div>
+                  <div class="flip-card-back">
+                    <img src="images/JSApplicationsBack.PNG" alt="JS Applications Certificate Back">
+                  </div>
+                </div>
+              </div>
+              <h3>JS Applications</h3>
+              <p class="provider">Softuni · October 2021</p>
+            </div>
+            <div class="course-card">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="images/DesingBasicFrond.PNG" alt="Design Basics Certificate Front">
+                  </div>
+                  <div class="flip-card-back">
+                    <img src="images/DesingBasicBack.PNG" alt="Design Basics Certificate Back">
+                  </div>
+                </div>
+              </div>
+              <h3>Design Basics</h3>
+              <p class="provider">Softuni · September 2020</p>
+            </div>
+            <div class="course-card no-certificate">
+              <h3>Programming Basics with JavaScript</h3>
+              <p class="provider">Softuni · November 2019</p>
+              <p class="note">No certificate available</p>
+            </div>
+            
+            <div class="course-card no-certificate">
+              <h3>JS Back-End</h3>
+              <p class="provider">Softuni · September 2024</p>
+              <p class="note">No certificate available</p>
+            </div>
+            <div class="course-card no-certificate">
+              <h3>Angular </h3>
+              <p class="provider">Softuni · October 2024</p>
+              <p class="note">No certificate available</p>
+            </div>
+            <div class="course-card no-certificate">
+              <h3>HTML and CSS</h3>
+              <p class="provider">Softuni · September 2024</p>
+              <p class="note">No certificate available</p>
+            </div>
+          </div>
+          
+          
+        </div>
+        <div id="projects">
+          <h2>Projects</h2>
         
+          <div class="projects-grid">
+        
+            <div class="project-card">
+              <h3>Movie-Magic 🎬</h3>
+              <p>A movie catalog app built as a course project for the JavaScript Back-End course. It uses Express.js for routing, Handlebars for templating, and custom CSS for styling.</p>
+              <p class="tech-stack"><strong>Tech:</strong> Express.js, Handlebars, CSS</p>
+              <a href="https://github.com/allilova/Movie-Magic" target="_blank" class="github-link">
+                <i class="fab fa-github"></i> View on GitHub
+              </a>
+            </div>
+        
+            <div class="project-card">
+              <h3>Course-project-SQL 🧾</h3>
+              <p>A database design coursework project for an auto parts store. Built using raw SQL queries with relational tables, primary/foreign keys, and normalized structure.</p>
+              <p class="tech-stack"><strong>Tech:</strong> SQL</p>
+              <a href="https://github.com/allilova/Course-project-SQL" target="_blank" class="github-link">
+                <i class="fab fa-github"></i> View on GitHub
+              </a>
+            </div>
+            <div class="project-card">
+              <h3>Food-Delivery — SAP Project 🍽️</h3>
+              <p>A full-stack group project for a food delivery application. I worked on both the frontend and backend. The system was built as a client-server architecture with authentication, order management, and Dockerized deployment.</p>
+              <p class="tech-stack"><strong>Tech:</strong> Spring Boot (Java), Angular (TypeScript), Docker</p>
+              <a href="https://github.com/allilova/Food-delivery---SAP-Project" target="_blank" class="github-link">
+                <i class="fab fa-github"></i> View on GitHub
+              </a>
+            </div>
+            <div class="project-card">
+              <h3>Portfolio Website 💼</h3>
+              <p>This is my personal portfolio website that showcases my education, projects, skills, and certifications. Designed and developed entirely from scratch using HTML and CSS</p>
+              <p class="tech-stack"><strong>Tech:</strong> HTML, CSS</p>
+              <a href="https://github.com/allilova/portfolio-website" target="_blank" class="github-link">
+                <i class="fab fa-github"></i> View on GitHub
+              </a>
+            </div>
           </div>
         </div>
+        <div id="skills">
+          <h2>Skills</h2>
+        
+          <div class="skills-category">
+            <h3>Front-End</h3>
+            <ul class="skills-list">
+              <li><i class="fab fa-html5"></i> HTML5</li>
+              <li><i class="fab fa-css3-alt"></i> CSS3</li>
+              <li><i class="fab fa-js"></i> JavaScript</li>
+              <li><i class="fab fa-angular"></i> Angular</li>
+              <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+            </ul>
+          </div>
+        
+          <div class="skills-category">
+            <h3>Back-End</h3>
+            <ul class="skills-list">
+              <li><i class="fab fa-node-js"></i> Node.js</li>
+              <li><i class="fas fa-server"></i> Express.js</li>
+              <li><i class="fas fa-database"></i> SQL</li>
+              <li><i class="fab fa-java"></i> Java (Spring Boot)</li>
+              <li><i class="fab fa-python"></i> Python</li>
+              <li><i class="fas fa-code"></i> C</li>
+            </ul>
+          </div>
+          
+        
+          <div class="skills-category">
+            <h3>Tools & Others</h3>
+            <ul class="skills-list">
+              <li><i class="fab fa-git-alt"></i> Git</li>
+              <li><i class="fab fa-github"></i> GitHub</li>
+              <li><i class="fab fa-docker"></i> Docker</li>
+              <li><i class="fas fa-code"></i> Handlebars</li>
+              <li><i class="fas fa-globe"></i> REST APIs</li>
+            </ul>
+          </div>
+        </div>
+        
         
           
     </body>
